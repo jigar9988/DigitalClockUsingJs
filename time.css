@@ -1,0 +1,37 @@
+body{
+    background: url("bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 3.7rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    background-color: rgb(13, 139, 139);
+    padding: 0.7rem 1rem;
+    font-family: cursive;
+    font-size: 3.7rem;
+    font-weight: bold;
+}
+.time div{
+    border-radius: 7px;
+    background-color: rgb(241, 228, 211);
+    padding: 0.5rem;
+    border: 2ox solid black;
+}
+.time span{
+    font-size: 3rem;
+    padding: 0 0.5rem;
+}
